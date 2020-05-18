@@ -3,9 +3,9 @@ session_start();
 ?>
 <?php
 
-$login=$_Post["login"];
+$login=$_POST['login'];
 $mdp=$_POST["mdp"];
-$valider=$-POST["valider"];
+$valider=$POST["valider"];
 $erreur="";
     if(isset($valider)){
 
